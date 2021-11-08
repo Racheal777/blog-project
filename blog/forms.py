@@ -17,3 +17,8 @@ class EmailPostForm(forms.Form):
     comments = forms.CharField(required=False,
                                 widget=forms.Textarea)
 
+
+#Search Form
+class SearchForm(forms.Form):
+    query = forms.CharField()
+    
